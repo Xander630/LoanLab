@@ -23,8 +23,10 @@ if Salary >= 30000:
         Interest = 0.10
         Formula = loan*Interest
         result = loan + Formula
+        Payable = result/months
         print(f"Your Loan of ₱{loan:.2f} is approved with 10% interest ")
         print(f"Your Total Amount you have to pay in {months} month/s is ₱{result:.2f}")
+        print(f"Your Amount Monthly is ₱{Payable:.2f}")
         print("\n Thank you For using Xander's Bank")
     else:
         print(f"Sorry {Name}, The Loan exceeds the 10 times of your salary You're Uneligible for Loan")
