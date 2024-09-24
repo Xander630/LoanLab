@@ -27,7 +27,7 @@ if Salary >= 30000:
         print(f"Your Total Amount you have to pay in {months} month/s is ₱{result:.2f}")
         print("\n Thank you For using Xander's Bank")
     else:
-        print(f"Sorry {Name}, The Loan has been denied it exceeds the 10 times of your monthly salary")
+        print(f"Sorry {Name}, The Loan exceeds the 10 times of your salary You're Uneligible for Loan")
         print("\n Thank you For using Xander's Bank")
 
 
